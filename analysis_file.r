@@ -8,5 +8,5 @@ print("This is going to be executed though")
 
 # Then, we'll load the data file
 
-data2025 <- read.csv("./data_sca_2025.csv")
-print(data2025)
+data2026 <- read.csv("./data_sca_2026.csv")
+print(data2026)
