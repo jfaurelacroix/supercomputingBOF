@@ -1,0 +1,15 @@
+﻿user,is funding guaranteed,what matters most for funding,do you charge for your system,do you monitor resource waste,what actions do you take to mitigate resource waste,do you automate waste management
+1,No:need to apply for it every time,something else,only to the private sector,,,
+2,,,,"yes: fine-grained, user-lever, and regular",user support: identify and work with an analyst to fix issues,"somewhat: some is automated, some is manual"
+3,,,,"yes: fine-grained, user-lever, and regular",,
+4,,,,"yes: fine-grained, user-lever, and regular",user support: identify and work with an analyst to fix issues,"somewhat: some is automated, some is manual"
+5,,,only to the private sector,,,
+6,,,always,"yes: fine-grained, user-lever, and regular",,
+7,no: need to apply for it every time,human: number and diversity of research fields using the systems,,,,
+8,,something else,,,,
+9,no: need to apply for it every time,something else,,,,
+10,,,,,user support: identify and work with an analyst to fix issues,no: all manual
+11,,,,,,"somewhat: some is automated, some is manual"
+12,yes: pre-defined part of the government budget ,machine: overall technical metrics,,,,
+13,No:need to apply for it every time,human: number and diversity of research fields using the systems,only to the private sector,No: no capacity or too irregular to be meaningful,user support: identify and work with an analyst to fix issues,no: all manual
+14,never,,,"yes: fine-grained, user-lever, and regular",,no: all manual
