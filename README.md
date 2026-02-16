@@ -5,3 +5,5 @@ It's called a README. We usually use this as a user guide for people who might w
 There are many guides out there with good tips on how to write a good README but you can get started [here](https://blog.datadryad.org/2025/09/09/whats-in-a-readme-why-your-readme-matters-and-how-to-create-the-best-one-possible) and [here](https://github.com/banesullivan/README).
 
 Your first task will be to edit this README using Markdown.
+
+We can even add a webpage if we end up liking this. I'm not sure that it could host the live survey thing. We'll think about it.
