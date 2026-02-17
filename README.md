@@ -1,4 +1,4 @@
-# ‘Reporting metrics for funding - are you really doing it right? readme
+# This is a markdown file
 It's called a README. We usually use this as a user guide for people who might want to use our stuff. 
 [Here's a link to a cheat sheet](https://www.markdownguide.org/cheat-sheet/). You can use RStudio to edit this but might as well use VScode, since we're getting you started with a bunch of things.
 
