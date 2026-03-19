@@ -17,7 +17,7 @@ Data will also be gathered from online surveys.
 These are the platforms and software that will be used in this project. 
 
 ## Glossary
-### *National HPC centre* 
+#### *National HPC centre* 
 A national-level (or equivalent) centre that is primarily government or federally-funded with a clear mandate to provision HPC resources and expertise to support and advance research.
 
 ## Data 
@@ -27,8 +27,10 @@ Pulls are welcome. Please do raise issues to us as well.
 Please raise issues or questions to:
 
 Julie Faure-Lacroix 
-@jfaurelacroix
+#### [@jfaurelacroix](https://github.com)
+#### ![Calcul Quebec](https://www.calculquebec.ca/wp-content/themes/calcul_quebec/assets/img/logo-en.png)
 
 Eugene Low
-@EugeneGR-Woof
+#### [@EugeneGR-Woof](https://github.com)
+#### ![NSCC Singapore](https://www.nscc.sg/)
 
