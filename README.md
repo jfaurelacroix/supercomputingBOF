@@ -20,7 +20,7 @@ These are the platforms and software that will be used in this project.
 #### *National HPC centre* 
 A national-level (or equivalent) centre that is primarily government or federally-funded with a clear mandate to provision HPC resources and expertise to support and advance research.
 
-## Data 
+## Interacting with this repository 
 Pulls are welcome. Please do raise issues to us as well. 
 
 ## Contact
