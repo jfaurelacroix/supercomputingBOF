@@ -26,12 +26,12 @@ Pulls are welcome. Please do raise issues to us as well.
 ## Contact
 Please raise issues or questions to:
 
-##### Julie Faure-Lacroix 
+**Julie Faure-Lacroix**
 [@jfaurelacroix](https://github.com)
 
 [<img src="/logos/CalculQuebec_logo_small.png" width="150"/>](https://www.calculquebec.ca/)
 
-##### Eugene Low
+**Eugene Low**
 [@EugeneGR-Woof](https://github.com)
 
 [<img src="/logos/nscc_logo.png" width="150"/>](https://www.nscc.sg/)
