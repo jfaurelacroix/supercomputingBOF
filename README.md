@@ -28,9 +28,11 @@ Please raise issues or questions to:
 
 ##### Julie Faure-Lacroix 
 [@jfaurelacroix](https://github.com)
+
 [<img src="/logos/CalculQuebec_logo_small.png" width="250"/>](https://www.calculquebec.ca/)
 
 ##### Eugene Low
 [@EugeneGR-Woof](https://github.com)
+
 [<img src="/logos/nscc_logo.png" width="250"/>](https://www.nscc.sg/)
 
