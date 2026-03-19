@@ -5,7 +5,7 @@ It's funny how a resource as critical as supercomputing is taken for granted, es
 
 However, the questions of who, what, where, why, when and how HPC fits into national priorities and strategies is a struggle many developing or even developed nations continue to struggle with. The justifications for ROIs on why governments should invest more in capital-heavy, on-premise, sovereign supercomputing resources is an exercise that many national HPC centres contend with frequently for budget requests and tech refreshes.
 
-This project gathers metrics and data to produce insights that can benefit HPC centres from across the spectrum of established, developing and new centres. The genesis of this initiative was for a [Calcul Quebec](https://www.calculquebec.ca/en/) led BoF at [Supercomputing Asia-HPC Asia 2026 (SCA/HPCA 2026)](https://www.sca-hpcasia2026.jp/), which was held in Osaka Japan in January 2026. 
+This project gathers metrics and data to produce insights that can benefit HPC centres from across the spectrum of established, developing and new centres. The genesis of this initiative was for a [Calcul Québec](https://www.calculquebec.ca/en/) led BoF at [Supercomputing Asia-HPC Asia 2026 (SCA/HPCA 2026)](https://www.sca-hpcasia2026.jp/), which was held in Osaka Japan in January 2026. 
 
 ## Data and Files
 The key data for the project is contained in the following:
