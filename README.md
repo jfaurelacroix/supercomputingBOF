@@ -13,6 +13,9 @@ The key data for the project is contained in the following:
 
 Data will also be gathered from online surveys.
 
+## Survey history
+- January 2026: BoF at SCA 2026 in Osaka, Japan
+
 ## Requirements
 These are the platforms and software that will be used in this project. 
 
