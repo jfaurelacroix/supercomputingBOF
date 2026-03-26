@@ -1,134 +1,134 @@
 event,date,country,user,funding_guaranteed,important_factor,top_three_metrics,fees,waste_monitoring,waste_mitigation,management_automation
-SCAHPCA26,2026-01-26,canada,1,0,other,nodes scaling throughput,private,no,prevention,no
-SCAHPCA26,2026-01-26,canada,2,0,human,throughput nodes bandwidth,never,yes,user support,somewhat
-SCAHPCA26,2026-01-26,canada,3,0,human,flops utilization power,never,yes,punish,yes
-SCAHPCA26,2026-01-26,singapore,4,1,other,power nodes utilization,never,yes,user support,somewhat
-SCAHPCA26,2026-01-26,singapore,5,0,machine,flops scaling bandwidth,private,no,other,no
-SCAHPCA26,2026-01-26,singapore,6,1,other,bandwidth latency scaling,always,yes,user support,yes
-SCAHPCA26,2026-01-26,singapore,7,0,human,utilization bandwidth scaling,never,no,prevention,no
-SCAHPCA26,2026-01-26,germany,8,1,other,flops throughput scaling,never,no,user support,no
-SCAHPCA26,2026-01-26,germany,9,0,other,throughput utilization flops,never,yes,punish,manual
-SCAHPCA26,2026-01-26,germany,10,0,machine,bandwidth utilization throughput,never,no,user support,no
-SCAHPCA26,2026-01-26,japan,11,0,other,power scaling nodes,never,no,other,no
-SCAHPCA26,2026-01-26,australia,12,1,machine,flops power utilization,never,yes,prevention,yes
-SCAHPCA26,2026-01-26,australia,13,0,human,power latency flops,private,yes,user support,manual
-SCAHPCA26,2026-01-26,japan,14,0,machine,power flops throughput,never,yes,user support,manual
-ISC26,2026-06-11,Australia,1,0,other,scaling bandwidth utilization,private,no,other,no
-ISC26,2026-06-11,Taiwan,2,1,other,power latency flops,never,no,other,no
-ISC26,2026-06-11,Taiwan,3,0,human,power flops throughput,never,yes,prevention,somewhat
-ISC26,2026-06-11,South Korea,4,1,human,flops utilization power,never,yes,prevention,somewhat
-ISC26,2026-06-11,Canada,5,1,machine,power efficiency throughput,never,no,other,no
-ISC26,2026-06-11,Taiwan,6,0,human,utilization bandwidth power,always,yes,user support,yes
-ISC26,2026-06-11,Germany,7,0,human,nodes scaling utilization,always,yes,prevention,yes
-ISC26,2026-06-11,Canada,8,0,machine,throughput nodes bandwidth,private,yes,prevention,yes
-ISC26,2026-06-11,Australia,9,0,human,scaling bandwidth power,private,no,other,no
-ISC26,2026-06-11,USA,10,1,machine,throughput flops nodes,always,no,other,no
-ISC26,2026-06-11,Canada,11,1,machine,flops power latency,always,no,other,no
-ISC26,2026-06-11,Canada,12,1,machine,bandwidth flops latency,always,no,other,no
-ISC26,2026-06-11,Australia,13,0,machine,scaling latency efficiency,private,no,other,no
-ISC26,2026-06-11,Singapore,14,0,human,nodes latency efficiency,never,yes,user support,somewhat
-ISC26,2026-06-11,South Korea,15,1,other,flops throughput scaling,always,yes,prevention,yes
-ISC26,2026-06-11,Japan,16,1,machine,throughput utilization flops,never,no,other,no
-ISC26,2026-06-11,Taiwan,17,1,machine,bandwidth utilization throughput,always,yes,prevention,somewhat
-ISC26,2026-06-11,South Korea,18,1,other,power scaling nodes,never,no,other,no
-ISC26,2026-06-11,Australia,19,0,machine,flops power utilization,never,yes,prevention,yes
-ISC26,2026-06-11,Taiwan,20,1,human,nodes flops utilization,always,no,other,no
-ISC26,2026-06-11,Australia,21,1,human,power nodes utilization,private,no,other,no
-ISC26,2026-06-11,Canada,22,1,machine,flops scaling bandwidth,private,no,other,no
-ISC26,2026-06-11,Singapore,23,1,human,bandwidth latency scaling,always,yes,user support,yes
-ISC26,2026-06-11,Taiwan,24,1,machine,utilization bandwidth scaling,always,yes,prevention,somewhat
-ISC26,2026-06-11,Canada,25,1,human,nodes throughput utilization,private,no,other,no
-ISC26,2026-06-11,South Korea,26,0,machine,utilization latency bandwidth,never,yes,user support,somewhat
-ISC26,2026-06-11,Singapore,27,1,other,nodes scaling throughput,always,yes,user support,yes
-ISC26,2026-06-11,Germany,28,1,human,throughput flops scaling,private,yes,user support,yes
-ISC26,2026-06-11,USA,29,0,human,power nodes efficiency,always,no,other,no
-ISC26,2026-06-11,USA,30,0,human,latency flops nodes,never,no,other,no
-SC26,2026-11-15,Singapore,1,1,other,throughput scaling bandwidth,never,yes,user support,somewhat
-SC26,2026-11-15,Germany,2,1,other,bandwidth power utilization,never,no,other,no
-SC26,2026-11-15,Finland,3,0,human,flops throughput latency,always,no,other,no
-SC26,2026-11-15,Japan,4,1,machine,scaling efficiency nodes,private,no,other,no
-SC26,2026-11-15,Finland,5,1,machine,efficiency power nodes,never,no,other,no
-SC26,2026-11-15,Finland,6,1,other,bandwidth throughput flops,private,no,other,no
-SC26,2026-11-15,Japan,7,0,other,scaling throughput latency,never,yes,prevention,yes
-SC26,2026-11-15,Canada,8,1,machine,throughput power bandwidth,always,no,other,no
-SC26,2026-11-15,Germany,9,1,machine,power flops scaling,never,no,other,no
-SC26,2026-11-15,Finland,10,1,human,throughput flops efficiency,always,yes,user support,yes
-SC26,2026-11-15,Australia,11,1,other,latency power scaling,never,yes,user support,somewhat
-SC26,2026-11-15,USA,12,0,human,efficiency flops scaling,always,yes,user support,somewhat
-SC26,2026-11-15,South Korea,13,0,human,utilization throughput scaling,always,no,other,no
-SC26,2026-11-15,Australia,14,1,human,nodes power bandwidth,always,yes,prevention,yes
-SC26,2026-11-15,USA,15,1,human,nodes efficiency bandwidth,private,no,other,no
-SC26,2026-11-15,South Korea,16,0,other,flops throughput power,private,no,other,no
-SC26,2026-11-15,Australia,17,0,other,scaling nodes latency,always,yes,prevention,somewhat
-SC26,2026-11-15,Germany,18,0,machine,nodes efficiency scaling,never,yes,prevention,yes
-SC26,2026-11-15,USA,19,1,machine,nodes utilization scaling,always,no,other,no
-SC26,2026-11-15,Canada,20,0,other,nodes utilization latency,always,yes,prevention,somewhat
-SCA27,2027-03-12,Canada,1,0,machine,scaling flops utilization,private,no,other,no
-SCA27,2027-03-12,Australia,2,0,other,efficiency power latency,never,no,other,no
-SCA27,2027-03-12,USA,3,0,machine,power efficiency scaling,private,no,other,no
-SCA27,2027-03-12,Canada,4,0,other,nodes bandwidth throughput,always,yes,user support,yes
-SCA27,2027-03-12,Canada,5,1,other,utilization flops bandwidth,never,yes,user support,yes
-SCA27,2027-03-12,USA,6,1,machine,throughput nodes scaling,always,yes,prevention,yes
-SCA27,2027-03-12,Singapore,7,1,human,efficiency throughput scaling,always,no,other,no
-SCA27,2027-03-12,Germany,8,1,machine,scaling throughput power,private,yes,user support,somewhat
-SCA27,2027-03-12,Germany,9,0,human,flops efficiency utilization,never,no,other,no
-SCA27,2027-03-12,Germany,10,1,human,flops nodes bandwidth,private,no,other,no
-SCA27,2027-03-12,Finland,11,1,machine,utilization power nodes,always,no,other,no
-SCA27,2027-03-12,Canada,12,0,machine,nodes flops latency,always,yes,user support,yes
-SCA27,2027-03-12,Germany,13,1,other,bandwidth power latency,always,yes,prevention,somewhat
-SCA27,2027-03-12,USA,14,0,machine,flops throughput power,never,yes,prevention,yes
-SCA27,2027-03-12,Finland,15,1,machine,power nodes flops,private,no,other,no
-SCA27,2027-03-12,Germany,16,0,other,efficiency bandwidth nodes,always,yes,user support,somewhat
-SCA27,2027-03-12,Taiwan,17,1,machine,bandwidth throughput flops,private,no,other,no
-SCA27,2027-03-12,Taiwan,18,1,machine,power latency throughput,always,yes,user support,somewhat
-SCA27,2027-03-12,Canada,19,1,other,bandwidth utilization throughput,always,no,other,no
-SCA27,2027-03-12,Finland,20,1,human,power scaling latency,never,yes,user support,somewhat
-SCA27,2027-03-12,Taiwan,21,1,human,scaling power latency,always,yes,prevention,yes
-SCA27,2027-03-12,South Korea,22,1,other,power scaling throughput,private,no,other,no
-SCA27,2027-03-12,Taiwan,23,0,machine,efficiency power latency,never,no,other,no
-SCA27,2027-03-12,Finland,24,0,machine,bandwidth flops latency,always,yes,prevention,somewhat
-SCA27,2027-03-12,Japan,25,1,human,bandwidth latency utilization,private,yes,user support,somewhat
-SCA27,2027-03-12,Australia,26,0,machine,utilization efficiency nodes,private,no,other,no
-SCA27,2027-03-12,Australia,27,1,human,flops nodes latency,always,no,other,no
-SCA27,2027-03-12,Japan,28,1,machine,scaling nodes power,never,yes,prevention,somewhat
-SCA27,2027-03-12,Singapore,29,1,machine,throughput utilization flops,always,no,other,no
-SCA27,2027-03-12,Singapore,30,1,machine,scaling efficiency bandwidth,private,no,other,no
-SCA27,2027-03-12,Taiwan,31,1,other,scaling throughput nodes,private,yes,user support,somewhat
-SCA27,2027-03-12,USA,32,0,other,latency power flops,always,yes,prevention,yes
-SCA27,2027-03-12,Canada,33,1,human,throughput scaling power,never,no,other,no
-SCA27,2027-03-12,Germany,34,0,other,utilization power scaling,private,yes,user support,somewhat
-SCA27,2027-03-12,Australia,35,0,human,bandwidth power nodes,never,no,other,no
-SCA27,2027-03-12,Japan,36,0,other,bandwidth latency throughput,never,yes,user support,somewhat
-SCA27,2027-03-12,Germany,37,0,other,nodes throughput bandwidth,always,no,other,no
-SCA27,2027-03-12,South Korea,38,0,human,flops utilization nodes,never,no,other,no
-SCA27,2027-03-12,Taiwan,39,0,machine,power latency bandwidth,always,yes,user support,somewhat
-SCA27,2027-03-12,USA,40,1,machine,nodes bandwidth throughput,private,yes,prevention,somewhat
-ISC27,2027-06-08,Germany,1,0,machine,throughput efficiency latency,private,no,other,no
-ISC27,2027-06-08,Canada,2,0,machine,bandwidth power throughput,always,yes,user support,yes
-ISC27,2027-06-08,Taiwan,3,0,other,nodes bandwidth efficiency,always,yes,user support,somewhat
-ISC27,2027-06-08,South Korea,4,0,human,latency flops utilization,private,yes,user support,yes
-ISC27,2027-06-08,USA,5,1,human,bandwidth scaling power,never,no,other,no
-ISC27,2027-06-08,Australia,6,0,other,nodes flops throughput,never,yes,user support,yes
-ISC27,2027-06-08,Germany,7,0,other,throughput nodes latency,never,no,other,no
-ISC27,2027-06-08,Canada,8,1,machine,utilization latency efficiency,private,no,other,no
-ISC27,2027-06-08,Taiwan,9,1,human,throughput nodes scaling,private,no,other,no
-ISC27,2027-06-08,Germany,10,0,human,power efficiency throughput,private,yes,prevention,yes
-ISC27,2027-06-08,Japan,11,0,machine,flops throughput latency,always,no,other,no
-ISC27,2027-06-08,Germany,12,1,machine,scaling flops power,always,no,other,no
-ISC27,2027-06-08,USA,13,1,other,power nodes latency,private,no,other,no
-ISC27,2027-06-08,Germany,14,0,other,utilization nodes power,private,yes,user support,yes
-ISC27,2027-06-08,Finland,15,0,other,efficiency throughput bandwidth,never,yes,user support,somewhat
-ISC27,2027-06-08,Taiwan,16,1,other,nodes latency efficiency,never,yes,prevention,somewhat
-ISC27,2027-06-08,Finland,17,0,other,efficiency flops scaling,never,yes,prevention,yes
-ISC27,2027-06-08,South Korea,18,0,other,scaling flops latency,always,no,other,no
-ISC27,2027-06-08,South Korea,19,0,machine,utilization throughput latency,never,no,other,no
-ISC27,2027-06-08,South Korea,20,1,other,scaling efficiency power,never,no,other,no
-ISC27,2027-06-08,USA,21,0,human,bandwidth nodes throughput,private,yes,prevention,yes
-ISC27,2027-06-08,USA,22,1,human,latency nodes efficiency,always,yes,user support,somewhat
-ISC27,2027-06-08,Taiwan,23,1,human,efficiency nodes scaling,private,no,other,no
-ISC27,2027-06-08,Canada,24,0,other,scaling nodes utilization,private,yes,prevention,yes
-ISC27,2027-06-08,Finland,25,1,human,latency bandwidth scaling,always,no,other,no
-ISC27,2027-06-08,Singapore,26,1,machine,scaling throughput latency,never,yes,user support,yes
+SCAHPCA26,2026-01-26,canada,1,0,other,io-throughput training project,private,no,prevention,no
+SCAHPCA26,2026-01-26,canada,2,0,human,interconnect mean-time-to-repair contention,never,yes,user support,somewhat
+SCAHPCA26,2026-01-26,canada,3,0,human,automation scaling authentication,never,yes,punish,yes
+SCAHPCA26,2026-01-26,singapore,4,1,other,memory-usage thermal-load uptime,never,yes,user support,somewhat
+SCAHPCA26,2026-01-26,singapore,5,0,machine,data-management power-consumption portability,private,no,other,no
+SCAHPCA26,2026-01-26,singapore,6,1,other,oversubscription io-latency scheduling,always,yes,user support,yes
+SCAHPCA26,2026-01-26,singapore,7,0,human,io-throughput thermal-load data-management,never,no,prevention,no
+SCAHPCA26,2026-01-26,germany,8,1,other,availability priority transfer-rate,never,no,user support,no
+SCAHPCA26,2026-01-26,germany,9,0,other,speedup memory-usage retention,never,yes,punish,manual
+SCAHPCA26,2026-01-26,germany,10,0,machine,account pipeline cooling-efficiency,never,no,user support,no
+SCAHPCA26,2026-01-26,japan,11,0,other,project reliability power-consumption,never,no,other,no
+SCAHPCA26,2026-01-26,australia,12,1,machine,recovery-time congestion resource-allocation,never,yes,prevention,yes
+SCAHPCA26,2026-01-26,australia,13,0,human,group contention reporting,private,yes,user support,manual
+SCAHPCA26,2026-01-26,japan,14,0,machine,turnaround-time io-latency recovery-time,never,yes,user support,manual
+ISC26,2026-06-11,Australia,1,0,other,pipeline storage-allocation reproducibility,private,no,other,no
+ISC26,2026-06-11,Taiwan,2,1,other,priority documentation flops,never,no,other,no
+ISC26,2026-06-11,Taiwan,3,0,human,interconnect memory-bandwidth reporting,never,yes,prevention,somewhat
+ISC26,2026-06-11,South Korea,4,1,human,orchestration benchmarking development,never,yes,prevention,somewhat
+ISC26,2026-06-11,Canada,5,1,machine,research support wait-time,never,no,other,no
+ISC26,2026-06-11,Taiwan,6,0,human,efficiency virtualization turnaround-time,always,yes,user support,yes
+ISC26,2026-06-11,Germany,7,0,human,jitter memory-usage checkpointing,always,yes,prevention,yes
+ISC26,2026-06-11,Canada,8,0,machine,congestion workflow reproducibility,private,yes,prevention,yes
+ISC26,2026-06-11,Australia,9,0,human,profiling monitoring efficiency,private,no,other,no
+ISC26,2026-06-11,USA,10,1,machine,power-consumption latency mean-time-to-repair,always,no,other,no
+ISC26,2026-06-11,Canada,11,1,machine,wait-time automation bandwidth,always,no,other,no
+ISC26,2026-06-11,Canada,12,1,machine,support strong-scaling queue-time,always,no,other,no
+ISC26,2026-06-11,Australia,13,0,machine,retention orchestration latency,private,no,other,no
+ISC26,2026-06-11,Singapore,14,0,human,fragmentation speedup support,never,yes,user support,somewhat
+ISC26,2026-06-11,South Korea,15,1,other,job-efficiency user overhead,always,yes,prevention,yes
+ISC26,2026-06-11,Japan,16,1,machine,reservation overhead authorization,never,no,other,no
+ISC26,2026-06-11,Taiwan,17,1,machine,group core-count innovation,always,yes,prevention,somewhat
+ISC26,2026-06-11,South Korea,18,1,other,archiving workflow job-efficiency,never,no,other,no
+ISC26,2026-06-11,Australia,19,0,machine,reliability portability scheduling,never,yes,prevention,yes
+ISC26,2026-06-11,Taiwan,20,1,human,benchmarking node-count wait-time,always,no,other,no
+ISC26,2026-06-11,Australia,21,1,human,bandwidth allocation access-control,private,no,other,no
+ISC26,2026-06-11,Canada,22,1,machine,fault-tolerance availability containerization,private,no,other,no
+ISC26,2026-06-11,Singapore,23,1,human,energy-efficiency documentation auditing,always,yes,user support,yes
+ISC26,2026-06-11,Taiwan,24,1,machine,innovation backfilling memory-bandwidth,always,yes,prevention,somewhat
+ISC26,2026-06-11,Canada,25,1,human,group governance policy,private,no,other,no
+ISC26,2026-06-11,South Korea,26,0,machine,job-size scheduling network-latency,never,yes,user support,somewhat
+ISC26,2026-06-11,Singapore,27,1,other,disk-usage auditing flops,always,yes,user support,yes
+ISC26,2026-06-11,Germany,28,1,human,failure-rate collaboration utilization,private,yes,user support,yes
+ISC26,2026-06-11,USA,29,0,human,node-count recovery-time mean-time-to-failure,always,no,other,no
+ISC26,2026-06-11,USA,30,0,human,interconnect workflow speedup,never,no,other,no
+SC26,2026-11-15,Singapore,1,1,other,portability io-throughput cooling-efficiency,never,yes,user support,somewhat
+SC26,2026-11-15,Germany,2,1,other,collaboration throughput reservation,never,no,other,no
+SC26,2026-11-15,Finland,3,0,human,throughput containerization speedup,always,no,other,no
+SC26,2026-11-15,Japan,4,1,machine,reservation load-balancing strong-scaling,private,no,other,no
+SC26,2026-11-15,Finland,5,1,machine,thermal-load downtime access-control,never,no,other,no
+SC26,2026-11-15,Finland,6,1,other,cooling-efficiency turnaround-time access-control,private,no,other,no
+SC26,2026-11-15,Japan,7,0,other,priority memory-usage jitter,never,yes,prevention,yes
+SC26,2026-11-15,Canada,8,1,machine,development core-count innovation,always,no,other,no
+SC26,2026-11-15,Germany,9,1,machine,transfer-rate account fragmentation,never,no,other,no
+SC26,2026-11-15,Finland,10,1,human,policy containerization network-latency,always,yes,user support,yes
+SC26,2026-11-15,Australia,11,1,other,cache-hit core-count monitoring,never,yes,user support,somewhat
+SC26,2026-11-15,USA,12,0,human,cooling-efficiency budgeting archiving,always,yes,user support,somewhat
+SC26,2026-11-15,South Korea,13,0,human,gpu-usage funding queue-time,always,no,other,no
+SC26,2026-11-15,Australia,14,1,human,network-latency archiving downtime,always,yes,prevention,yes
+SC26,2026-11-15,USA,15,1,human,latency automation development,private,no,other,no
+SC26,2026-11-15,South Korea,16,0,other,throughput strong-scaling governance,private,no,other,no
+SC26,2026-11-15,Australia,17,0,other,monitoring training project,always,yes,prevention,somewhat
+SC26,2026-11-15,Germany,18,0,machine,node-count speedup access-control,never,yes,prevention,yes
+SC26,2026-11-15,USA,19,1,machine,weak-scaling security research,always,no,other,no
+SC26,2026-11-15,Canada,20,0,other,grant utilization scalability,always,yes,prevention,somewhat
+SCA27,2027-03-12,Canada,1,0,machine,power-consumption debugging benchmarking,private,no,other,no
+SCA27,2027-03-12,Australia,2,0,other,team research governance,never,no,other,no
+SCA27,2027-03-12,USA,3,0,machine,account support virtualization,private,no,other,no
+SCA27,2027-03-12,Canada,4,0,other,flops group transfer-rate,always,yes,user support,yes
+SCA27,2027-03-12,Canada,5,1,other,scalability interconnect bandwidth,never,yes,user support,yes
+SCA27,2027-03-12,USA,6,1,machine,interconnect collaboration group,always,yes,prevention,yes
+SCA27,2027-03-12,Singapore,7,1,human,virtualization io-throughput jitter,always,no,other,no
+SCA27,2027-03-12,Germany,8,1,machine,queue-time access-control wait-time,private,yes,user support,somewhat
+SCA27,2027-03-12,Germany,9,0,human,energy-efficiency scalability mean-time-to-failure,never,no,other,no
+SCA27,2027-03-12,Germany,10,1,human,gpu-usage memory-usage cache-miss,private,no,other,no
+SCA27,2027-03-12,Finland,11,1,machine,cache-hit training energy-efficiency,always,no,other,no
+SCA27,2027-03-12,Canada,12,0,machine,power-consumption scheduling mean-time-to-repair,always,yes,user support,yes
+SCA27,2027-03-12,Germany,13,1,other,portability support uptime,always,yes,prevention,somewhat
+SCA27,2027-03-12,USA,14,0,machine,user mean-time-to-repair disk-usage,never,yes,prevention,yes
+SCA27,2027-03-12,Finland,15,1,machine,data-management recovery-time monitoring,private,no,other,no
+SCA27,2027-03-12,Germany,16,0,other,availability strong-scaling io-latency,always,yes,user support,somewhat
+SCA27,2027-03-12,Taiwan,17,1,machine,archiving thermal-load utilization,private,no,other,no
+SCA27,2027-03-12,Taiwan,18,1,machine,disk-usage logging core-count,always,yes,user support,somewhat
+SCA27,2027-03-12,Canada,19,1,other,scaling io-latency training,always,no,other,no
+SCA27,2027-03-12,Finland,20,1,human,transfer-rate innovation turnaround-time,never,yes,user support,somewhat
+SCA27,2027-03-12,Taiwan,21,1,human,recovery-time fault-tolerance gpu-usage,always,yes,prevention,yes
+SCA27,2027-03-12,South Korea,22,1,other,cooling-efficiency automation network-latency,private,no,other,no
+SCA27,2027-03-12,Taiwan,23,0,machine,debugging latency gpu-usage,never,no,other,no
+SCA27,2027-03-12,Finland,24,0,machine,funding backfilling reliability,always,yes,prevention,somewhat
+SCA27,2027-03-12,Japan,25,1,human,uptime job-efficiency speedup,private,yes,user support,somewhat
+SCA27,2027-03-12,Australia,26,0,machine,turnaround-time congestion gpu-usage,private,no,other,no
+SCA27,2027-03-12,Australia,27,1,human,debugging auditing packet-loss,always,no,other,no
+SCA27,2027-03-12,Japan,28,1,machine,retention turnaround-time failure-rate,never,yes,prevention,somewhat
+SCA27,2027-03-12,Singapore,29,1,machine,training budgeting virtualization,always,no,other,no
+SCA27,2027-03-12,Singapore,30,1,machine,collaboration auditing energy-efficiency,private,no,other,no
+SCA27,2027-03-12,Taiwan,31,1,other,wait-time auditing budgeting,private,yes,user support,somewhat
+SCA27,2027-03-12,USA,32,0,other,fairness bandwidth jitter,always,yes,prevention,yes
+SCA27,2027-03-12,Canada,33,1,human,project team archiving,never,no,other,no
+SCA27,2027-03-12,Germany,34,0,other,development innovation benchmarking,private,yes,user support,somewhat
+SCA27,2027-03-12,Australia,35,0,human,memory-usage utilization data-management,never,no,other,no
+SCA27,2027-03-12,Japan,36,0,other,availability orchestration containerization,never,yes,user support,somewhat
+SCA27,2027-03-12,Germany,37,O,other,training node-count efficiency,always,no,other,no
+SCA27,2027-03-12,South Korea,38,0,human,disk-usage reservation data-management,never,no,other,no
+SCA27,2027-03-12,Taiwan,39,0,machine,backfilling policy benchmarking,always,yes,user support,somewhat
+SCA27,2027-03-12,USA,40,1,machine,weak-scaling scalability memory-bandwidth,private,yes,prevention,somewhat
+ISC27,2027-06-08,Germany,1,0,machine,io-latency profiling orchestration,private,no,other,no
+ISC27,2027-06-08,Canada,2,0,machine,authentication strong-scaling throughput,always,yes,user support,yes
+ISC27,2027-06-08,Taiwan,3,0,other,storage-allocation pipeline backfilling,always,yes,user support,somewhat
+ISC27,2027-06-08,South Korea,4,0,human,tuning efficiency packet-loss,private,yes,user support,yes
+ISC27,2027-06-08,USA,5,1,human,project tuning policy,never,no,other,no
+ISC27,2027-06-08,Australia,6,0,other,memory-usage energy-efficiency io-latency,never,yes,user support,yes
+ISC27,2027-06-08,Germany,7,0,other,reporting job-size failure-rate,never,no,other,no
+ISC27,2027-06-08,Canada,8,1,machine,project funding node-count,private,no,other,no
+ISC27,2027-06-08,Taiwan,9,1,human,training authorization io-latency,private,no,other,no
+ISC27,2027-06-08,Germany,10,0,human,throughput wait-time group,private,yes,prevention,yes
+ISC27,2027-06-08,Japan,11,0,machine,transfer-rate utilization containerization,always,no,other,no
+ISC27,2027-06-08,Germany,12,1,machine,turnaround-time profiling flops,always,no,other,no
+ISC27,2027-06-08,USA,13,1,other,job-efficiency cooling-efficiency job-size,private,no,other,no
+ISC27,2027-06-08,Germany,14,0,other,load-balancing authorization access-control,private,yes,user support,yes
+ISC27,2027-06-08,Finland,15,0,other,authentication recovery-time access-control,never,yes,user support,somewhat
+ISC27,2027-06-08,Taiwan,16,1,other,jitter account memory-usage,never,yes,prevention,somewhat
+ISC27,2027-06-08,Finland,17,0,other,optimization mean-time-to-repair cache-hit,never,yes,prevention,yes
+ISC27,2027-06-08,South Korea,18,0,other,power-consumption core-count innovation,always,no,other,no
+ISC27,2027-06-08,South Korea,19,0,machine,gpu-usage io-latency automation,never,no,other,no
+ISC27,2027-06-08,South Korea,20,1,other,scaling recovery-time power-consumption,never,no,other,no
+ISC27,2027-06-08,USA,21,0,human,resource-allocation pipeline wait-time,private,yes,prevention,yes
+ISC27,2027-06-08,USA,22,1,human,checkpointing job-efficiency retention,always,yes,user support,somewhat
+ISC27,2027-06-08,Taiwan,23,1,human,packet-loss scalability retention,private,no,other,no
+ISC27,2027-06-08,Canada,24,0,other,pipeline scaling memory-usage,private,yes,prevention,yes
+ISC27,2027-06-08,Finland,25,1,human,debugging wait-time containerization,always,no,other,no
+ISC27,2027-06-08,Singapore,26,1,machine,cooling-efficiency queue-time bandwidth,never,yes,user support,yes
 ISC27,2027-06-08,Taiwan,27,1,human,throughput flops utilization,never,no,other,no
 ISC27,2027-06-08,Australia,28,1,human,scaling nodes throughput,never,no,other,no
 ISC27,2027-06-08,Japan,29,0,other,flops scaling utilization,always,no,other,no
