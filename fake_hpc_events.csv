@@ -1,18 +1,18 @@
 event,date,country,user,funding_guaranteed,important_factor,top_three_metrics,fees,waste_monitoring,waste_mitigation,management_automation
-SCAHPCA26,2026-01-26,canada,1,0,other,io-throughput training project,private,no,prevention,no
-SCAHPCA26,2026-01-26,canada,2,0,human,interconnect mean-time-to-repair contention,never,yes,user support,somewhat
-SCAHPCA26,2026-01-26,canada,3,0,human,automation scaling authentication,never,yes,punish,yes
-SCAHPCA26,2026-01-26,singapore,4,1,other,memory-usage thermal-load uptime,never,yes,user support,somewhat
-SCAHPCA26,2026-01-26,singapore,5,0,machine,data-management power-consumption portability,private,no,other,no
-SCAHPCA26,2026-01-26,singapore,6,1,other,oversubscription io-latency scheduling,always,yes,user support,yes
-SCAHPCA26,2026-01-26,singapore,7,0,human,io-throughput thermal-load data-management,never,no,prevention,no
-SCAHPCA26,2026-01-26,germany,8,1,other,availability priority transfer-rate,never,no,user support,no
-SCAHPCA26,2026-01-26,germany,9,0,other,speedup memory-usage retention,never,yes,punish,manual
-SCAHPCA26,2026-01-26,germany,10,0,machine,account pipeline cooling-efficiency,never,no,user support,no
-SCAHPCA26,2026-01-26,japan,11,0,other,project reliability power-consumption,never,no,other,no
-SCAHPCA26,2026-01-26,australia,12,1,machine,recovery-time congestion resource-allocation,never,yes,prevention,yes
-SCAHPCA26,2026-01-26,australia,13,0,human,group contention reporting,private,yes,user support,manual
-SCAHPCA26,2026-01-26,japan,14,0,machine,turnaround-time io-latency recovery-time,never,yes,user support,manual
+SCAHPCA26,2026-01-26,Canada,1,0,other,io-throughput training project,private,no,prevention,no
+SCAHPCA26,2026-01-26,Canada,2,0,human,interconnect mean-time-to-repair contention,never,yes,user support,somewhat
+SCAHPCA26,2026-01-26,Canada,3,0,human,automation scaling authentication,never,yes,punish,yes
+SCAHPCA26,2026-01-26,Singapore,4,1,other,memory-usage thermal-load uptime,never,yes,user support,somewhat
+SCAHPCA26,2026-01-26,Singapore,5,0,machine,data-management power-consumption portability,private,no,other,no
+SCAHPCA26,2026-01-26,Singapore,6,1,other,oversubscription io-latency scheduling,always,yes,user support,yes
+SCAHPCA26,2026-01-26,Singapore,7,0,human,io-throughput thermal-load data-management,never,no,prevention,no
+SCAHPCA26,2026-01-26,Germany,8,1,other,availability priority transfer-rate,never,no,user support,no
+SCAHPCA26,2026-01-26,Germany,9,0,other,speedup memory-usage retention,never,yes,punish,manual
+SCAHPCA26,2026-01-26,Germany,10,0,machine,account pipeline cooling-efficiency,never,no,user support,no
+SCAHPCA26,2026-01-26,Japan,11,0,other,project reliability power-consumption,never,no,other,no
+SCAHPCA26,2026-01-26,Australia,12,1,machine,recovery-time congestion resource-allocation,never,yes,prevention,yes
+SCAHPCA26,2026-01-26,Australia,13,0,human,group contention reporting,private,yes,user support,manual
+SCAHPCA26,2026-01-26,Japan,14,0,machine,turnaround-time io-latency recovery-time,never,yes,user support,manual
 ISC26,2026-06-11,Australia,1,0,other,pipeline storage-allocation reproducibility,private,no,other,no
 ISC26,2026-06-11,Taiwan,2,1,other,priority documentation flops,never,no,other,no
 ISC26,2026-06-11,Taiwan,3,0,human,interconnect memory-bandwidth reporting,never,yes,prevention,somewhat
