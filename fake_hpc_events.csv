@@ -99,7 +99,7 @@ SCA27,2027-03-12,Canada,33,1,human,throughput scaling power,never,no,other,no
 SCA27,2027-03-12,Germany,34,0,other,utilization power scaling,private,yes,user support,somewhat
 SCA27,2027-03-12,Australia,35,0,human,bandwidth power nodes,never,no,other,no
 SCA27,2027-03-12,Japan,36,0,other,bandwidth latency throughput,never,yes,user support,somewhat
-SCA27,2027-03-12,Germany,37,O,other,nodes throughput bandwidth,always,no,other,no
+SCA27,2027-03-12,Germany,37,0,other,nodes throughput bandwidth,always,no,other,no
 SCA27,2027-03-12,South Korea,38,0,human,flops utilization nodes,never,no,other,no
 SCA27,2027-03-12,Taiwan,39,0,machine,power latency bandwidth,always,yes,user support,somewhat
 SCA27,2027-03-12,USA,40,1,machine,nodes bandwidth throughput,private,yes,prevention,somewhat
