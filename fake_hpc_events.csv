@@ -99,7 +99,7 @@ SCA27,2027-03-12,Canada,33,1,human,project team archiving,never,no,other,no
 SCA27,2027-03-12,Germany,34,0,other,development innovation benchmarking,private,yes,user support,somewhat
 SCA27,2027-03-12,Australia,35,0,human,memory-usage utilization data-management,never,no,other,no
 SCA27,2027-03-12,Japan,36,0,other,availability orchestration containerization,never,yes,user support,somewhat
-SCA27,2027-03-12,Germany,37,O,other,training node-count efficiency,always,no,other,no
+SCA27,2027-03-12,Germany,37,0,other,training node-count efficiency,always,no,other,no
 SCA27,2027-03-12,South Korea,38,0,human,disk-usage reservation data-management,never,no,other,no
 SCA27,2027-03-12,Taiwan,39,0,machine,backfilling policy benchmarking,always,yes,user support,somewhat
 SCA27,2027-03-12,USA,40,1,machine,weak-scaling scalability memory-bandwidth,private,yes,prevention,somewhat
