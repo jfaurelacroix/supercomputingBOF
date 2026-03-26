@@ -5,27 +5,31 @@
 ### data as we survey people                                                ####
 ### ############################################################################
 setwd("C:\Users\steak\OneDrive - Université Laval\GitHub\supercomputingBOF")
-
+# loading fake dataset
 data2026 <- read.csv("./fake_hpc_events.csv")
 
+# required packages
 library(tm)
 library(tidytext)
 library(wordcloud)
 
+# initial exploration
 head(data2026)
 str(data2026)
 
-text <- data2026$top_three_metrics
-docs <- Corpus(VectorSource(text))
-dtm <- TermDocumentMatrix(docs)
-matrix <- as.matrix(dtm) 
-words <- sort(rowSums(matrix),decreasing=TRUE) 
-df <- data.frame(word = names(words),freq=words)
+# word cloud example
+metricstext <- data2026$top_three_metrics
+corpuswords <- Corpus(VectorSource(metricstext))
+tdmx <- TermDocumentMatrix(corpuswords)
+wordmatrix <- as.matrix(tdmx) 
+wordcount <- sort(rowSums(wordmatrix),decreasing=TRUE) 
+wordfrequency <- data.frame(word = names(wordcount),freq=wordcount)
 metric_words <-  data2026 %>%
   select(top_three_metrics) %>%
   unnest_tokens(word, top_three_metrics)
 words <- metric_words %>% count(word, sort=TRUE)
 set.seed(1234) # for reproducibility
-wordcloud(words = df$word, freq = df$freq, min.freq = 1,
+wordcloud(words = wordfrequency$word, freq = wordfrequency$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35,
           colors=brewer.pal(8, "Dark2"))
+# 
