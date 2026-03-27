@@ -24,10 +24,10 @@ These are the platforms and software that will be used in this project.
 A national-level (or equivalent) centre that is primarily government or federally-funded with a clear mandate to provision HPC resources and expertise to support and advance research.
 
 ## Interacting with this repository 
-Pulls are welcome. Please do raise issues to us as well. 
+Pull requests are welcome but will be rejected immediately if the working dataset is modified. Open issues to interact with the maintainers of the repository.
 
 ## Contact
-Please raise issues or questions to:
+If you have any additional questions, please contact us:
 
 **Julie Faure-Lacroix** ([@jfaurelacroix](https://github.com))
 
