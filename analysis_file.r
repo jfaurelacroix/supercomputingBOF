@@ -11,4 +11,5 @@ print("This is going to be executed though")
 # directory from the Rstudio menu 
 # session -> set working directory -> to source file location
 data2026 <- read.csv("./data_sca_2026.csv")
-print(data2026)
+str(data2026)
+library(tidyverse)
