@@ -13,3 +13,8 @@ print("This is going to be executed though")
 data2026 <- read.csv("./data_sca_2026.csv")
 str(data2026)
 library(tidyverse)
+# data2026 seems to have been deleted
+# uploaded and linked the new fake_hpc_events.csv file; presuming this is the file to work on 
+# ran new .scv file first - couldn't str it without running .csv
+fake_hpc_events <- read.csv("./fake_hpc_events.csv")
+str(fake_hpc_events)
