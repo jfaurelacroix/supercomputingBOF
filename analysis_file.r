@@ -15,6 +15,17 @@ str(data2026)
 library(tidyverse)
 # data2026 seems to have been deleted
 # uploaded and linked the new fake_hpc_events.csv file; presuming this is the file to work on 
-# ran new .scv file first - couldn't str it without running .csv
+# ran new .csv file first - couldn't str it without running .csv
+# always remember to setwd before starting to work on file
+# str structure for object
 fake_hpc_events <- read.csv("./fake_hpc_events.csv")
 str(fake_hpc_events)
+head(fake_hpc_events)
+# unique - unique input displayed
+unique(fake_hpc_events$funding_guaranteed)
+# names - column titles
+names(fake_hpc_events)
+# tapply to select certain variables and FUN (function) unique
+tapply(fake_hpc_events$country,fake_hpc_events$event,FUN = unique)
+# ? for query about waht the function is
+?tapply
