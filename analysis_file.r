@@ -59,3 +59,5 @@ tapply(fake_hpc_events$date,length, FUN = range.Date(2026, 2025))
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = Year)
 tapply(fake_hpc_events$date,fake_hpc_events$date,length)
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = merge(2025, 2026),length)
+
+tapply(fake_hpc_events$date_col,format(fake_hpc_events$date_col,"%Y"),length)
