@@ -51,10 +51,11 @@ tapply(fake_hpc_events$event,FUN = length)
 tapply(fake_hpc_events$event,fake_hpc_events$event, length)
 
 # use tapply to give the number of submitted responses per year
-# below is numbers by date but not by year
-tapply(fake_hpc_events$date,fake_hpc_events$date, length)
-
+# below are numbers by date but not by year
+tapply(fake_hpc_events$event,fake_hpc_events$date, length)
 # attempts at sorting number of responses by year
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = length)
 tapply(fake_hpc_events$date,length, FUN = range.Date(2026, 2025))
-tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = %Y)
+tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = Year)
+tapply(fake_hpc_events$date,fake_hpc_events$date,length)
+tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = merge(2025, 2026),length)
