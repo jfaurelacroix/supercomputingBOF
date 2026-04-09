@@ -60,4 +60,9 @@ tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = Year)
 tapply(fake_hpc_events$date,fake_hpc_events$date,length)
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = merge(2025, 2026),length)
 
-tapply(fake_hpc_events$date_col,format(fake_hpc_events$date_col,"%Y"),length)
+tapply(fake_hpc_events$date,format(fake_hpc_events$date,"%Y"),length)
+
+library(tidyverse)
+fake_hpc_events$year <- year(fake_hpc_events$date)
+fake_hpc_events$year
+tapply(fake_hpc_events$year,fake_hpc_events$year,length)
