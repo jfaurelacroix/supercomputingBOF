@@ -29,10 +29,11 @@ tapply(data2026$user, data2026$event, FUN=max)
 
 # countries surveyed by year
 data2026$year <- year(data2026$date)
-tapply(data2026$country, data2026$year, FUN=unique)
+tapply(data2026$country, year(data2026$date), FUN=unique)
 
 # number of submitted responses per year
 tapply(data2026$user, data2026$year, FUN=length)
+tapply(data2026$user, year(data2026$date), FUN=length)
 
 # is funding generally guaranteed
 ggplot(data = data2026, aes(funding_guaranteed)) +
@@ -62,6 +63,7 @@ wordcount <- sort(rowSums(wordmatrix),decreasing=TRUE)
 wordfrequency <- data.frame(word = names(wordcount),freq=wordcount)
 metric_words <-  data2026 %>%
   select(top_three_metrics) %>%
+  mutate(top_three_metrics = str_replace_all(top_three_metrics, "-", "_")) %>% # tidytext strips - but not _, so that's a workaround
   unnest_tokens(word, top_three_metrics)
 words <- metric_words %>% count(word, sort=TRUE)
 set.seed(1234) # for reproducibility
@@ -72,7 +74,15 @@ wordcloud(words = wordfrequency$word, freq = wordfrequency$freq, min.freq = 1,
 # 3 most popular metrics
 head(words, n=3)
 
-# word cloud per year
+# word popularity per year
+metric_words2 <-  data2026 %>%
+  select(year, top_three_metrics) %>%
+  mutate(top_three_metrics = str_replace_all(top_three_metrics, "-", "_")) %>% # tidytext strips - but not _, so that's a workaround
+  unnest_tokens(word, top_three_metrics)
+words2 <- metric_words2 %>% group_by(year) %>% count(word, sort=TRUE) %>%
+  pivot_wider(names_from = year, values_from = n, values_fill = 0)
+words2$total <- rowSums(as.matrix(words2[,-1]))
+
 
 # do countries charge for service
 ggplot(data = data2026, aes(x = factor(country),fill = factor(fees))) +
@@ -101,5 +111,15 @@ ggplot(data = data2026, aes(x = factor(fees),y = factor(waste_monitoring))) +
   
 # how do people mitigate waste according to their fees
 ggplot(data = data2026, aes(x = factor(fees),y = factor(waste_mitigation))) +
+  geom_jitter(width = 0.1, height = 0.1)+
+  labs(x = "Charging model", y = "Waste mitigation")
+
+# how do countries mitigate waste
+ggplot(data = data2026, aes(x = factor(country),y = factor(waste_mitigation))) +
+  geom_jitter(width = 0.1, height = 0.1)+
+  labs(x = "Charging model", y = "Waste mitigation")
+
+# how do countries mitigate waste
+ggplot(data = data2026, aes(x = factor(country),y = factor(waste_mitigation))) +
   geom_jitter(width = 0.1, height = 0.1)+
   labs(x = "Charging model", y = "Waste mitigation")
