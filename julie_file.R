@@ -74,7 +74,7 @@ wordcloud(words = wordfrequency$word, freq = wordfrequency$freq, min.freq = 1,
 # 3 most popular metrics
 head(words, n=3)
 
-# word popularity per year
+# word popularity per year TODO : loop that recalculates the top metrics per year and creates a dataset of the top 10% every year or overall
 metric_words2 <-  data2026 %>%
   select(year, top_three_metrics) %>%
   mutate(top_three_metrics = str_replace_all(top_three_metrics, "-", "_")) %>% # tidytext strips - but not _, so that's a workaround
@@ -82,6 +82,15 @@ metric_words2 <-  data2026 %>%
 words2 <- metric_words2 %>% group_by(year) %>% count(word, sort=TRUE) %>%
   pivot_wider(names_from = year, values_from = n, values_fill = 0)
 words2$total <- rowSums(as.matrix(words2[,-1]))
+
+perctotal <- quantile(words2$total, probs=0.9) # top 10% most popular overall
+
+words2 <- words2[-(which(words2$total < perctotal)),] %>%  # drop words that aren't in the top 10%
+  pivot_longer(cols = c("2027", "2026")) %>% 
+  rename(year = name, popularity = value) 
+
+ggplot(data = words2, aes(x= factor(year), group = word, colour = word)) +
+  geom_line(aes(y = popularity))
 
 
 # do countries charge for service
