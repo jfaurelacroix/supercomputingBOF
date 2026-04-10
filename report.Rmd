@@ -1,0 +1,71 @@
+---
+title: "Ongoing Reporting of the Data Collection "
+author: "Julie Faure-Lacroix (Calcul Québec), Eugene Low (NSCC Singapore), Suzanne Talon (Calcul Québec)"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(tm)
+library(tidytext)
+library(wordcloud)
+library(tidyverse)
+data2026 <- read.csv("./fake_hpc_events.csv")
+data2026$year <- year(data2026$date)
+```
+
+## Context
+This is where the context goes. 
+
+
+## History of the surveys
+
+We started polling the community during SCA-HPCA 2026 in Osaka Japan. 
+```{r echo = FALSE, message=FALSE}
+# number of submitted responses per event per year
+groups <- group_by(data2026,year,event)
+kable(summarise(groups,max(user)), col.names = c("Year", "Event", "Number of Participants"))
+```
+
+
+## Stability of funding over the years
+
+Countries have seen changes in the stability of funding.
+
+```{r echo=FALSE}
+ggplot(data = data2026, aes(x = factor(year), y = user, fill = factor(funding_guaranteed))) +
+  geom_col(position = "dodge") +
+  labs(x = "Year", y = "Numbers of votes", fill = "Is Funding Guaranteed")
+```
+
+## Metrics Currently Most Relevant 
+
+Here are the most commonly used metrics when reporting to funding agencies.
+
+```{r echo=FALSE, message = FALSE, warning=FALSE}
+# word cloud example
+metricstext <- data2026$top_three_metrics
+corpuswords <- Corpus(VectorSource(metricstext))
+tdmx <- TermDocumentMatrix(corpuswords)
+wordmatrix <- as.matrix(tdmx) 
+wordcount <- sort(rowSums(wordmatrix),decreasing=TRUE) 
+wordfrequency <- data.frame(word = names(wordcount),freq=wordcount)
+metric_words <-  data2026 %>%
+  select(top_three_metrics) %>%
+  mutate(top_three_metrics = str_replace_all(top_three_metrics, "-", "_")) %>% # tidytext strips - but not _, so that's a workaround
+  unnest_tokens(word, top_three_metrics)
+words <- metric_words %>% count(word, sort=TRUE)
+set.seed(1234) # for reproducibility
+wordcloud(words = wordfrequency$word, freq = wordfrequency$freq, min.freq = 1,
+          max.words=200, random.order=FALSE, rot.per=0.35,
+          colors=brewer.pal(8, "Dark2"))
+```
+
+## Evolution of Metric Trends Over the Years
+```{r echo=FALSE, message = FALSE, warning=FALSE}
+ggplot(data = data2026, aes(x = factor(year), y = user, fill = factor(funding_guaranteed))) +
+  geom_col(position = "dodge") +
+  labs(x = "Year", y = "Numbers of votes", fill = "Is Funding Guaranteed")
+```
