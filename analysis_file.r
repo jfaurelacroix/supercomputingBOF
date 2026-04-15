@@ -59,10 +59,26 @@ tapply(fake_hpc_events$date,length, FUN = range.Date(2026, 2025))
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = Year)
 tapply(fake_hpc_events$date,fake_hpc_events$date,length)
 tapply(fake_hpc_events$date,fake_hpc_events$date,FUN = merge(2025, 2026),length)
-
 tapply(fake_hpc_events$date,format(fake_hpc_events$date,"%Y"),length)
-
 library(tidyverse)
 fake_hpc_events$year <- year(fake_hpc_events$date)
 fake_hpc_events$year
 tapply(fake_hpc_events$year,fake_hpc_events$year,length)
+
+# Figure out a way to find the number of submitted responses per year 
+# Use tapply and year() but without creating a new column
+x <- ymd("2026-01-26")
+year(x) <- 2026
+tapply(fake_hpc_events$date,year(2026),length)
+fake_hpc_events$date <- ymd("2026-01-26")
+
+year(fake_hpc_events$date) <- 2026
+year(fake_hpc_events$date) <- 2027
+tapply(fake_hpc_events$date,year(ymd),length)
+
+date_vector <- c("2026-01-26","2026-06-11","2026-11-15","2027-03-12","2027-06-08")
+dates <- as.Date(date_vector)
+tapply(fake_hpc_events$date,year(dates),length)
+tapply(fake_hpc_events$event,year(dates),length)
+tapply(fake_hpc_events$date,year(ymd(df$date_string)),length)
+tapply(fake_hpc_events$date,year(ymd(fake_hpc_events$date)),length)
