@@ -11,6 +11,7 @@
     --border-radius: 8px;
     --max-width: 900px;
     --font-main: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-header: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Base */
@@ -31,14 +32,17 @@ body {
 
 /* Typography */
 h1 {
+    font-family: var(--font-header);
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
     letter-spacing: -0.5px;
+
 }
 
 h2 {
+    font-family: var(--font-header);
     font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-color);
@@ -49,6 +53,7 @@ h2 {
 }
 
 h4 { /* Looks like knitr uses h4 instead of a subtitle */
+    font-family: var(--font-header);
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--muted-text);
@@ -97,13 +102,13 @@ a:hover {
 /* Header */
 header {
     background: linear-gradient(120deg, var(--primary-color), var(--secondary-color));
-    color: white;
+    /* color: white; */ 
     padding: 3rem 1.5rem;
     text-align: center;
 }
 
 header h1 {
-    color: white;
+    /* color: white; */ 
     margin-bottom: 0.5rem;
 }
 
