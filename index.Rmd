@@ -6,28 +6,43 @@ output:
   html_document: 
     css: metrics.css
 ---
-
+```{r global.options, include = FALSE}
+knitr::opts_chunk$set(
+    cache       = TRUE,     
+    fig.width   = 10,      
+    fig.height  = 10,       
+    fig.align   = 'center', 
+    fig.path    = 'images/',
+    results     = 'asis',
+    echo        = FALSE,
+    message     = FALSE,
+    strip.white = TRUE,
+    warning     = FALSE)
+```
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(tm)
 library(tidytext)
-library(wordcloud)
+library(wordcloud2)
 library(tidyverse)
 data2026 <- read.csv("./fake_hpc_events.csv")
 data2026$year <- year(data2026$date)
 ```
 
+WARNING: ALL DATA IN THIS VERSION ARE FAKE
+
 ## Context
-ALL DATA IN THIS VERSION ARE FAKE
-This is where the context goes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+HPC centres today face increasing pressures to justify the heavy capital investment for new systems to sustain the evolving demands for computing power. Building and sustaining a robust HPC centre means adapting and responding quickly to emerging fields. This usually implies readily affording specific components, such as storage expansions or expensive GPU chips for AI. However, government priorities do not always evolve in alignment with the needs of the existing and emerging HPC communities, creating a mismatch between what researchers require and what governments want. As a result of this, centres must act as both auditors of their users’ performance and auditees to their funding agencies. This raises important questions about reporting and whether the metrics being collected are meaningful, aligned, and fit for purpose.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Following SCA’s Birds of a Feather session “Reporting Metrics for Funding: Are You Really Doing It Right?”, we continue to collect data from centres on their reporting strategies and metrics. We invite HPC centres at all stages to contribute by sharing their experiences about metrics, standardisation, and accountability. We believe that everyone in the HPC community can benefit from learning how different centres include reporting in their strategies to sustain a leadership-class HPC centre. 
 
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Money"}
+knitr::include_graphics("./images/money.jpg")
+```
 
 ## History of the surveys
 
-We started polling the community during SCA-HPCA 2026 in Osaka Japan. 
+We started polling the community during SCA-HPCA 2026 in Osaka, Japan. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -56,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Here are the most commonly used metrics when reporting to funding agencies. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-```{r echo=FALSE, message = FALSE, warning=FALSE}
+```{r echo=FALSE}
 # word cloud example
 metricstext <- data2026$top_three_metrics
 corpuswords <- Corpus(VectorSource(metricstext))
@@ -70,9 +85,10 @@ metric_words <-  data2026 %>%
   unnest_tokens(word, top_three_metrics)
 words <- metric_words %>% count(word, sort=TRUE)
 set.seed(1234) # for reproducibility
-wordcloud(words = wordfrequency$word, freq = wordfrequency$freq, min.freq = 1,
-          max.words=200, random.order=FALSE, rot.per=0.35,
-          colors=brewer.pal(8, "Dark2"))
+wordcloud2(wordfrequency, size = 0.5, minSize = 0, gridSize =  0,
+    fontFamily = 'Segoe UI',
+    color = 'random-dark', backgroundColor = "transparent",
+    shuffle = FALSE, shape = 'circle')
 ```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -84,7 +100,7 @@ Nice little paragraph that summarizes what we're doing. Lorem ipsum dolor sit am
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-```{r echo=FALSE, message = FALSE, warning=FALSE}
+```{r echo=FALSE}
 metric_words2 <-  data2026 %>%
   select(year, top_three_metrics) %>%
   mutate(top_three_metrics = str_replace_all(top_three_metrics, "-", "_")) %>% # tidytext strips - but not _, so that's a workaround
