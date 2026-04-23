@@ -65,6 +65,10 @@ fake_hpc_events$year <- year(fake_hpc_events$date)
 fake_hpc_events$year
 tapply(fake_hpc_events$year,fake_hpc_events$year,length)
 
+fake_hpc_events <- read.csv("./fake_hpc_events.csv")
+str(fake_hpc_events)
+library(tidyverse)
+
 # Figure out a way to find the number of submitted responses per year 
 # Use tapply and year() but without creating a new column
 x <- ymd("2026-01-26")
@@ -82,3 +86,18 @@ tapply(fake_hpc_events$date,year(dates),length)
 tapply(fake_hpc_events$event,year(dates),length)
 tapply(fake_hpc_events$date,year(ymd(df$date_string)),length)
 tapply(fake_hpc_events$date,year(ymd(fake_hpc_events$date)),length)
+
+# What is year()? What does it do?
+# Year() identifies which index/function(?) that we want to find? E.g. if we wanted to total the number of response by month we could do month(ymd())? 
+
+# What does date_vector <- c("dates","dates") mean?
+# Not sure. I presumed this selects a certain range of dates / data? I tried this first as I thought I had to specifically identify which dates for the code to work on
+
+# How is it different from creating a new column in your data frame?
+# Looking at probably not much different, i.e. the 'dates' is essentially a new column containing those specifc chosen dates?  
+
+# Was year(dates) necessary in the tapply? What could you have done instead?
+# Nope cos it  didn't run. Tidyverse to the rescue - Not sure how it coulda been different.
+
+# What is the difference between c() and list()?
+# they both group entries - c is for same type entries, e.g. dates of same format, etc.? list is more for different types, e.g. texts, numbers, etc. ergo a list of different entries?
