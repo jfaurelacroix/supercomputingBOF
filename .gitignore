@@ -2,3 +2,6 @@
 /.Rproj.user
 supercomputingBOF.Rproj
 .RData
+index_cache/html/__packages
+*.RData
+/index_cache
